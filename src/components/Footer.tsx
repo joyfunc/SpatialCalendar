@@ -6,7 +6,7 @@ import { Container } from '@/components/Container'
 import { TextField } from '@/components/Fields'
 import { Logo } from '@/components/Logo'
 import { NavLinks } from '@/components/NavLinks'
-import qrCode from '@/images/qr-code.svg'
+import qrCode from '@/images/qr-code.png'
 
 function QrCodeBorder(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -30,7 +30,7 @@ export function Footer() {
               <Logo className="h-10 w-10 flex-none fill-cyan-500" />
               <div className="ml-4">
                 <p className="text-base font-semibold">Spatial Calendar</p>
-                <p className="mt-1 text-sm">Invest at the perfect time.</p>
+                <p className="mt-1 text-sm">Making Your Calendar Tangible.</p>
               </div>
             </div>
             <nav className="mt-11 flex gap-8">
@@ -44,7 +44,7 @@ export function Footer() {
             </div>
             <div className="ml-8 lg:w-64">
               <p className="text-base font-semibold text-gray-900">
-                <Link href="/launching">
+                <Link href="https://apps.apple.com/app/spatial-calendar/id6501989399">
                   <span className="absolute inset-0 sm:rounded-2xl" />
                   Download the app
                 </Link>

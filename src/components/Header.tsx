@@ -123,7 +123,10 @@ export function Header() {
                 </>
               )}
             </Popover>
-            <Button href="/launching" className="hidden lg:block">
+            <Button
+              href="https://apps.apple.com/app/spatial-calendar/id6501989399"
+              className="hidden lg:block"
+            >
               Download
             </Button>
           </div>
