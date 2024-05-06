@@ -1,5 +1,7 @@
-import { Inter } from 'next/font/google'
+import { SpeedInsights } from '@vercel/speed-insights/next'
+import { Analytics } from '@vercel/analytics/react'
 import clsx from 'clsx'
+import { Inter } from 'next/font/google'
 
 import '@/styles/tailwind.css'
 import { type Metadata } from 'next'
@@ -48,7 +50,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={clsx('bg-gray-50 antialiased', inter.variable)}>
-      <body>{children}</body>
+      <body>
+        <SpeedInsights />
+        <Analytics />
+        {children}
+      </body>
     </html>
   )
 }
