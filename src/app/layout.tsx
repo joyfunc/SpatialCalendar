@@ -13,10 +13,32 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: {
     template: '%s - Spatial Calendar',
-    default: 'Spatial Calendar - Invest at the perfect time.',
+    default: 'Spatial Calendar - Making Your Calendar Tangible.',
   },
   description:
-    'By leveraging insights from our network of industry insiders, you’ll know exactly when to buy to maximize profit, and exactly when to sell to avoid painful losses.',
+    'Immerse yourself in a truly authentic calendar experience that makes your moments feel more real and natural.',
+  keywords: [
+    'Spatial',
+    'Desktop',
+    'Calendar',
+    'Event',
+    'Schedule',
+    'Photo',
+    'Mark',
+    'Year',
+    'Month',
+    'Day',
+    'Chinese',
+    'Lunar',
+    'Solar term',
+    'Festival',
+  ],
+  authors: [
+    {
+      name: 'joyfunc',
+      url: 'https://joyfunc.com',
+    },
+  ],
 }
 
 export default function RootLayout({
