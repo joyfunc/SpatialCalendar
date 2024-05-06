@@ -3,7 +3,9 @@
 <img alt="Logo" src="./src/images/app-screen.png" align="center" height="512">
 
 **Making Your Calendar Tangible.**
+
 Spatial Calendar is a lightweight calendar app designed for Vision OS.
+
 Immerse yourself in a truly authentic calendar experience that makes your moments feel more real and natural.
 
 ## Features
