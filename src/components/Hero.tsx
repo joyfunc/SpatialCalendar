@@ -36,8 +36,8 @@ function BackgroundIllustration(props: React.ComponentPropsWithoutRef<'div'>) {
             y2="1025"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stopColor="#06b6d4" />
-            <stop offset="1" stopColor="#06b6d4" stopOpacity="0" />
+            <stop stopColor="#EC7C71" />
+            <stop offset="1" stopColor="#EC7C71" stopOpacity="0" />
           </linearGradient>
         </defs>
       </svg>
@@ -66,8 +66,8 @@ function BackgroundIllustration(props: React.ComponentPropsWithoutRef<'div'>) {
             y2="913"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stopColor="#06b6d4" />
-            <stop offset="1" stopColor="#06b6d4" stopOpacity="0" />
+            <stop stopColor="#EC7C71" />
+            <stop offset="1" stopColor="#EC7C71" stopOpacity="0" />
           </linearGradient>
         </defs>
       </svg>
